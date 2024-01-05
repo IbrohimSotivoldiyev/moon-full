@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+.index {
+  background-image: url(../images/Bitmap.jpg);
+  background-size: cover;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -331,6 +338,424 @@ template {
 }
 
 .container {
+  max-width: 1250px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.site-header {
+  padding: 40px 0px;
+  background-image: url(../../images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: 870px 86px;
+  background-position: right;
+  background-position-y: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.liner {
+  display: inline-block;
+  background-color: white;
+  opacity: 0.2515;
+  width: 333px;
+  height: 1px;
+  margin-left: 64px;
+}
+
+.header__item-link {
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+
+.header__item {
+  padding: 34px 0 28px;
+}
+.header__item:hover {
+  border-bottom: 3px solid white;
+  transition: all 0.3s;
+}
+
+.header__item-span {
+  margin-left: 50px;
+  padding-right: 11px;
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+
+.hero {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-top: 230px;
+  margin-bottom: 130px;
+}
+
+.hero__content-h3 {
+  color: #D0D6F9;
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.725px;
+}
+
+.hero__content-h1 {
+  color: #FFF;
+  font-family: Bellefair;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 24px 0 24px 0;
+}
+
+.hero__content-text {
+  width: 444px;
+  color: #D0D6F9;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+
+.circle {
+  display: inline-block;
+  width: 274px;
+  height: 274px;
+  flex-shrink: 0;
+  border-radius: 274px;
+  background: #FFF;
+  color: #0B0D17;
+  font-family: Bellefair;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  padding: 119px 64px 118px 62px;
+}
+
+.site-headermoon {
+  padding: 40px 0px;
+  background-image: url(../../images/Rectangle2.png);
+  background-repeat: no-repeat;
+  background-size: 870px 86px;
+  background-position: right;
+  background-position-y: center;
+}
+
+.containermoon {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.headermoon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.linermoon {
+  display: inline-block;
+  background-color: white;
+  opacity: 0.2515;
+  width: 333px;
+  height: 1px;
+  margin-left: 64px;
+}
+
+.header-listmoon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__itemmoon {
+  padding: 34px 0 28px;
+}
+.header__itemmoon:hover {
+  border-bottom: 3px solid white;
+  transition: all 0.3s;
+}
+
+.header__item-spanmoon {
+  margin-left: 50px;
+  padding-right: 11px;
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+
+.header__item-linkmoon {
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+
+.moon {
+  background-image: url(../../images/Bitmap2.jpg);
+  background-size: cover;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+}
+
+.heromoon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.span__flexermoon {
+  display: flex;
+}
+
+.spannermoon {
+  margin-right: 24px;
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.725px;
+  opacity: 0.25;
+}
+
+.hero__content-title1moon {
+  color: #FFF;
+  font-family: Barlow Condensed;
+  margin-bottom: 154px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+}
+
+.hero__content-imagemoon {
+  width: 444px;
+  color: #D0D6F9;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+
+.hero__content-rightmoon {
+  margin-top: 170px;
+  width: 445px;
+  height: 472px;
+  flex-shrink: 0;
+}
+
+.hero__content-title2moon {
+  margin: 37px 0px 14px 0;
+  color: #FFF;
+  font-family: Bellefair;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.hero__content-textmoon {
+  color: #D0D6F9;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+
+.hero__content-listmoon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__content-itemmoon {
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+
+.crew {
+  background-image: url(../../images/Bitmap3.jpg);
+  background-size: cover;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+}
+
+.site-headercrew {
+  padding: 40px 0px;
+  background-image: url(../../images/Rectangle3.jpg);
+  background-repeat: no-repeat;
+  background-size: 870px 86px;
+  background-position: right;
+  background-position-y: center;
+}
+
+.containercrew {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.headercrew {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.linercrew {
+  display: inline-block;
+  background-color: white;
+  opacity: 0.2515;
+  width: 333px;
+  height: 1px;
+  margin-left: 64px;
+}
+
+.header-listcrew {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__itemcrew {
+  padding: 34px 0 28px;
+}
+.header__itemcrew:hover {
+  border-bottom: 3px solid white;
+  transition: all 0.3s;
+}
+
+.header__item-spancrew {
+  margin-left: 50px;
+  padding-right: 11px;
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+
+.header__item-linkcrew {
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+
+.herocrew {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.span__flexercrew {
+  display: flex;
+}
+
+.spannercrew {
+  margin-right: 24px;
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.725px;
+  opacity: 0.25;
+}
+
+.hero__content-title1crew {
+  color: #FFF;
+  font-family: Barlow Condensed;
+  margin-bottom: 154px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+}
+
+.hero__content-titlecrew {
+  color: #FFF;
+  font-family: Bellefair;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  opacity: 0.5042;
+}
+
+.hero__content-title2crew {
+  margin: 15px 0px 27px 0;
+  color: #FFF;
+  font-family: Bellefair;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.hero__content-textcrew {
+  color: #D0D6F9;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+
+.circlescrewcrew {
+  display: inline-block;
+  margin-top: 120px;
 }/*# sourceMappingURL=main.css.map */

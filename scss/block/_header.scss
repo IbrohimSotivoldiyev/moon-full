@@ -1,0 +1,58 @@
+.site-header{
+    padding: 40px 0px;
+    background-image: url(../../images/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: 870px 86px;
+    background-position: right;
+    background-position-y: center;
+}
+.header{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ 
+}
+.header-list{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    
+}
+.liner{
+    display: inline-block;
+    background-color: white;
+    opacity: 0.2515;
+    width: 333px;
+    height: 1px;
+    margin-left: 64px;
+}
+.header__item-link{
+
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+   
+}
+.header__item{
+    padding: 34px 0 28px;
+    &:hover{
+        border-bottom: 3px solid white;
+        transition: all 0.3s;
+        
+    }
+}
+.header__item-span{
+    margin-left: 50px;
+    padding-right: 11px;
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}

@@ -11,7 +11,14 @@
 }
 
 
-body{
+.index{
     // font-family: "Your font here";
+
+   background-image: url(../images/Bitmap.jpg);
+   background-size: cover;
+    flex-shrink: 0;
+background-repeat: no-repeat;
+    
+
 }
 
