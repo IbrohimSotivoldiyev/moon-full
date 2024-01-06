@@ -391,8 +391,12 @@ template {
   transition: all 0.3s;
 }
 
+.header__item + .header__item {
+  margin-left: 49px;
+}
+
 .header__item-span {
-  margin-left: 50px;
+  margin-right: 11px;
   padding-right: 11px;
   color: #FFF;
   font-family: Barlow Condensed;
@@ -403,6 +407,22 @@ template {
   letter-spacing: 2.7px;
 }
 
+@media only screen and (max-width: 901px) {
+  .site-header {
+    background-size: 570px 86px;
+  }
+  .header__item-span {
+    display: none;
+  }
+  .liner {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1167px) {
+  .site-header {
+    background-size: 770px 86px;
+  }
+}
 .hero {
   display: flex;
   align-items: end;
@@ -458,6 +478,15 @@ template {
   padding: 119px 64px 118px 62px;
 }
 
+@media only screen and (max-width: 816px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-section {
+    padding: 106px 100px 90px;
+  }
+}
 .site-headermoon {
   padding: 40px 0px;
   background-image: url(../../images/Rectangle2.png);
@@ -502,8 +531,11 @@ template {
   transition: all 0.3s;
 }
 
+.header__itemmoon + .header__itemmoon {
+  margin-left: 49px;
+}
+
 .header__item-spanmoon {
-  margin-left: 50px;
   padding-right: 11px;
   color: #FFF;
   font-family: Barlow Condensed;
@@ -616,6 +648,10 @@ template {
   line-height: normal;
   letter-spacing: 2.7px;
 }
+.hero__content-itemmoon:hover {
+  border-bottom: 3px solid white;
+  transition: all 0.3s;
+}
 
 .crew {
   background-image: url(../../images/Bitmap3.jpg);
@@ -668,8 +704,11 @@ template {
   transition: all 0.3s;
 }
 
+.header__itemcrew + .header__itemcrew {
+  margin-left: 49px;
+}
+
 .header__item-spancrew {
-  margin-left: 50px;
   padding-right: 11px;
   color: #FFF;
   font-family: Barlow Condensed;

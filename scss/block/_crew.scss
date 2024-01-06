@@ -47,9 +47,13 @@
         transition: all 0.3s;
         
     }
+    
+}
+.header__itemcrew + .header__itemcrew{
+    margin-left: 49px;
 }
 .header__item-spancrew {
-    margin-left: 50px;
+  
     padding-right: 11px;
     color: #FFF;
     font-family: Barlow Condensed;

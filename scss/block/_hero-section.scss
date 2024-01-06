@@ -59,4 +59,19 @@
     line-height: normal;
     letter-spacing: 2px;
    padding:  119px 64px 118px 62px;
+ 
+
+}
+
+
+
+@media only screen and (max-width: 816px){
+    
+    .hero{
+         flex-direction: column;
+         align-items: center;
+    }
+    .hero-section{
+        padding: 106px 100px 90px;
+    }
 }

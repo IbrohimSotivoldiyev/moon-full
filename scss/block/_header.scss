@@ -45,8 +45,14 @@
         
     }
 }
+.header__item + .header__item {
+    margin-left: 49px;
+}
+
+
 .header__item-span{
-    margin-left: 50px;
+    // margin-left: 50px;
+    margin-right: 11px;
     padding-right: 11px;
     color: #FFF;
     font-family: Barlow Condensed;
@@ -56,3 +62,27 @@
     line-height: normal;
     letter-spacing: 2.7px;
 }
+
+@media only screen and (max-width: 816px){
+
+    
+}
+@media only screen and (max-width: 901px){
+.site-header {
+    background-size: 570px 86px;
+}
+.header__item-span{
+     display: none;
+}
+.liner{
+     display: none;
+}
+
+}
+
+@media only screen and (max-width: 1167px) {
+.site-header {
+    background-size: 770px 86px;
+}
+}
+
